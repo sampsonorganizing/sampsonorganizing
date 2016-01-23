@@ -1200,7 +1200,8 @@
 		-webkit-transition: opacity 0.25s ease-in-out;
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
-		display: inline-block;
+		display: block;
+		width: 100%;
 		border: solid 6px #ebebeb !important;
 	}
 
@@ -1208,10 +1209,6 @@
 			opacity: 0.9;
 		}
 
-		.image img {
-			display: block;
-			width: 100%;
-		}
 
 		.image.fit {
 			display: block;
